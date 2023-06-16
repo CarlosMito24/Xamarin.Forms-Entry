@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin.Forms_Entry.MainPage">
+
+    <StackLayout Margin="20, 35, 20, 30">
+        <Entry Placeholder="Usuario"
+               MaxLength="10"
+               IsSpellCheckEnabled="True"
+               IsTextPredictionEnabled="True"
+               IsPassword="True"
+               Keyboard="Numeric"
+               CharacterSpacing="10"
+               TextChanged="Entry_Changed"
+               Completed="Entry_Completed"/>
+    </StackLayout>
+</ContentPage>
